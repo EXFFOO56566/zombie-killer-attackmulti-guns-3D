@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{5707B97F-75EC-C8EF-0874-0006B74A6258}") = "FPSc Project", "Assembly-CSharp.csproj", "{7912758F-2850-B1DD-1519-3081FC8DDB99}"
+EndProject
+Project("{5707B97F-75EC-C8EF-0874-0006B74A6258}") = "FPSc Project", "Assembly-UnityScript.unityproj", "{4A80566C-966D-FEB0-0F15-C77C965305AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7912758F-2850-B1DD-1519-3081FC8DDB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7912758F-2850-B1DD-1519-3081FC8DDB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7912758F-2850-B1DD-1519-3081FC8DDB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7912758F-2850-B1DD-1519-3081FC8DDB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A80566C-966D-FEB0-0F15-C77C965305AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A80566C-966D-FEB0-0F15-C77C965305AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A80566C-966D-FEB0-0F15-C77C965305AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A80566C-966D-FEB0-0F15-C77C965305AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

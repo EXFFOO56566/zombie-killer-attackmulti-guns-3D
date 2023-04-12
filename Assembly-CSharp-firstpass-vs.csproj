@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{41DE5159-83A0-D8D1-72D4-878ECD52A06B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\AdController.cs" />
+     <Compile Include="Assets\Plugins\ChartBoostAndroid\ChartBoostAndroid.cs" />
+     <Compile Include="Assets\Plugins\ChartBoostAndroid\ChartBoostAndroidManager.cs" />
+     <Compile Include="Assets\Plugins\ChartBoostAndroid\demo\ChartBoostAndroidEventListener.cs" />
+     <Compile Include="Assets\Plugins\ChartBoostAndroid\demo\ChartBoostUIManager.cs" />
+     <Compile Include="Assets\Plugins\PluginManager.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\Detonator.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorBurstEmitter.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorCloudRing.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorFireball.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorForce.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorGlow.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorHeatwave.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorLight.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorShockwave.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorSmoke.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorSound.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorSparks.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorSpray.cs" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hu\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\proguard.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sw\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\ads_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\AdditiveBlend.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\Cursor.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mn-rMN\strings.xml" />
+     <None Include="Assets\Resources\Fonts\BigNoodle\big_noodle_titling.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lv\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleAdditive.shader" />
+     <None Include="Assets\Resources\Shaders\Car.shader" />
+     <None Include="Assets\EasyTouch\Readme_first.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uk\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nl\strings.xml" />
+     <None Include="Assets\Resources\Shaders\Particle Add.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\strings.xml" />
+     <None Include="Assets\Resources\Prefabs\Prefabs\Particles\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rHK\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sk\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-km-rKH\strings.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\README.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fa\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\Rain.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-am\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lo-rLA\strings.xml" />
+     <None Include="Assets\Standard Assets\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-be\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\Additive.shader" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\Fallback.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\strings.xml" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\RealtimeReflectionReplacement.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\strings.xml" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\RealtimeReflectionInWaterFlow.shader" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\AngryInclude.cginc" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\Multiply.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nb\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\colors.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\HeightFogBeforeTransparent.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sr\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ka-rGE\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sv\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\Blend.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-da\strings.xml" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\CharacterSelfIlluminationReflective.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hr\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt\strings.xml" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\EnemySelfIlluminationReflective.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ja\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleBlend.shader" />
+     <None Include="Assets\Resources\Shaders\Bullet.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\strings.xml" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\AlphaCutoutCheapFallback.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-iw\strings.xml" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\ReflectiveBackgroundPlanar.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-vi\strings.xml" />
+     <None Include="Assets\Standard Assets\DefaultResources\Normal-Diffuse.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\maps_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-cs\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleAdditiveBlend.shader" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\PlanarRealtimeReflection.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\version.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\InterlacePatternBlend.shader" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\RainSplash.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hy-rAM\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hi\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fi\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\InterlacePatternAdditive.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\ScreenRefract.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\strings.xml" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\ReflectiveBackgroundSelfIllumination.shader" />
+     <None Include="Assets\Resources\Shaders\Particle Multiply.shader" />
+     <None Include="Assets\Resources\BackgroundAndCharacters\ReflectiveBackgroundArbitrary.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rBR\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\LaserScope.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\strings.xml" />
+     <None Include="Assets\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleMultiply.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\strings.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

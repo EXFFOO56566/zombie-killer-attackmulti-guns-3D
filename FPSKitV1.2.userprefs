@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\NewScripts\WeaponManager.js">
+    <Files>
+      <File FileName="Assets\Scripts\Ad_Script\GoogleMobileAdsDemoScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\NewScripts\EnemySpawner.js" Line="1" Column="1" />
+      <File FileName="Assets\Resources\NewScripts\PlayerDamageNew.js" Line="1" Column="1" />
+      <File FileName="Assets\Resources\OldScripts\AI\ZombieDamage.js" Line="1" Column="1" />
+      <File FileName="Assets\NEW FILES\MenuLevelLock.js" Line="1" Column="1" />
+      <File FileName="Assets\NEW FILES\GamePlay.cs" Line="1" Column="1" />
+      <File FileName="Assets\NEW FILES\TimerClass.cs" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\Android\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="Assets\Resources\NewScripts\WeaponManager.js" Line="406" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
